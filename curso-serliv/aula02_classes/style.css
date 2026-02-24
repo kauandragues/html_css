@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(153, 163, 223);
+}
+
+.destaque {
+    color: blue;
+    font-weight: bold;
+}
+
+#destaque {
+    color: red;
+}

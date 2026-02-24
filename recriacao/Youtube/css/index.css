@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto',sans-serif;
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    padding: 0px 20px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    direction: row;
+}
+
+.head-left{
+    width: 180px;
+    height: 50px;
+}
+
+.icone-left{
+    margin-top: 8px;
+    cursor: pointer;
+    margin-left: 11px;
+}
+
+.head-left-logo{
+    padding-top: 1;
+    cursor: pointer;
+    margin-top: 12px;
+    width: 80px;
+    margin-left: 23px;
+}
+
+.head-center{
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    height: 50px;
+}
+.head-center-search{
+    width: 520;
+    padding: 18px;
+    border: 1px solid gray;
+    font-size: 17px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    outline-color: rgb(56, 127, 233);
+    margin-top: -5px;
+    margin-left: 270px;
+    height: 20px;
+}
+
+.mic-center{
+    margin-top: -5px;
+    margin-left: 15px;
+    cursor: pointer;
+    background-color: rgb(228, 228, 228);
+    height:30px;
+    width: 30px;
+    border-radius: 100%;
+    border: 1px solid gray;
+    font-size: 20px;
+}
+.mic-center:hover{
+    background-color: rgb(207, 207, 207);
+}
+
+.btn-search{
+    width: 70px;
+    height: 38px;
+    cursor: pointer;
+    margin-top: -5px;
+    margin-left: -4px;
+    border: 1px solid gray;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.btn-search:hover{
+    background-color: rgb(207, 207, 207);
+}
+
+.head-right{
+    display: flex;
+    direction: row;
+    
+}
+
+.btn-create{
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    margin-left: 240px;
+    font-size: 20px;
+}
+
+.btn-create:hover{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(207, 207, 207);
+    border-radius: 100%;
+}
+
+.btn-notif{
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.btn-notif:hover{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(207, 207, 207);
+    border-radius: 100%;
+}
+
+.btn-user{
+    background-color: transparent;
+    border: 0px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-right: 26px;
+    font-size: 20px;
+}
+
+.btn-user:hover{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(207, 207, 207);
+    border-radius: 100%;
+}
+
+.side{
+    width: 100%;
+    max-width: 250px;
+    height: 1000px;
+    float: left;
+    font-size: 14px;
+    
+}
+
+.item-side-active{
+    width: 100%;
+    align-items: center;
+    margin-left: 15px;
+    cursor: pointer;
+    margin-top: 9px;
+    background-color: rgb(207, 207, 207);
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.item-side-active:hover{
+    background-color: rgb(152, 152, 152);
+}
+
+.icon-side-active{
+    color: black;
+    font-size: 20px;
+    float: left;
+    margin-right: 18px;
+}
+
+.item-side{
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 15px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.item-side:hover{
+    background-color: rgb(207, 207, 207);
+}
+
+.icon-side{
+    color: rgb(130, 130, 130);
+    font-size: 20px;
+    float: left;
+    margin-right: 18px;
+}
+
+.separator{
+    margin-top: 9;
+    height: 1px;
+    background-color: rgb(194, 194, 194);
+}
+
+.section-2{
+    font-size: 19px;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 17px;
+    margin-bottom: 13px;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.section-2:hover{
+    background-color: rgb(207, 207, 207);
+}
+
+.section-subs-title{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 17px;
+    margin-bottom: 13px;
+    font-size: 21;
+}
+
+.channels{
+    font-size: 19px;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 17px;
+    margin-bottom: 13px;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.channels:hover{
+    background-color: rgb(207, 207, 207);
+}
+
+.middle{
+    height: 730px;
+    width: 1300px;
+    margin-top: 10px;
+    background-color: white;
+    float: right;
+}
+
+.middle-item-active{
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.middle-item{
+    font-size: 16px;
+    margin-left: 6px;
+    background-color: rgb(225, 225, 225);
+    color: black;
+    padding: 7px 14px;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.middle-item:hover{
+    background-color: rgb(207, 207, 207);
+}
+
+.more{
+    cursor:pointer;
+}
+
+.area-videos{
+    height: 100%;
+    padding: 20px;
+}
+
+.item-video{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 10px;
+    max-width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.thumb{
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.time{
+    padding: 2px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    float: right;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: -23px
+}
+
+.canal{
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+    max-width: 40px;
+    border-radius: 100%;
+}
+
+.titulo-video{
+    float: left;
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: -40;
+    max-width: 250px;
+    position: absolute;
+}
+
+.name-canal{
+    float:right;
+    text-align: left;
+    font-size: 15px;
+    color: gray;
+    position: absolute;
+    margin-left: 50px;
+    
+}
+
+.views-video{
+    float:right;
+    text-align: left;
+    font-size: 15px;
+    color: gray;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 35;
+}
+
+.footer{
+    background-color: rgb(207, 207, 207);
+    width: 122%;
+    height: 300px;
+    position: relative;
+    margin-top: -70px;
+    margin-left: -274;
+    text-align: center;
+}
