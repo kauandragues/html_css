@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    #heading {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    #heading h1 {
+      padding: 15px;
+      font-size: 25px;
+      text-transform: uppercase;
+    }
+
+    #heading a {
+      font-family: sans-serif;
+      text-decoration: none;
+      color: red;
+    }
+
+    #heading button {
+      background-color: red;
+      color: white;
+      border: 0px none transparent;
+      width: 100px;
+      height: 50px;
+      margin: 15px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header id="heading">
+    <h1><a href="#">Netflix</a></h1>
+    <button>Entrar</button>
+  </header>
+  <h2>Filmes, séries e muito mais. Sem limites.</h2>
+  <h3>Assista onde quiser. Cancele quando quiser.</h3>
+  <form action="">
+    <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+    <input type="email" name="email" id="email">
+    <button type="submit">Vamos LÁ</button>
+  </form>
+
+
+  <script src="netflix.js"></script>
+</body>
+
+</html>
