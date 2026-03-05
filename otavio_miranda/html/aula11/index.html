@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 11</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .responsive-table {
+      width: 100%;
+      overflow-x: auto;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 500px;
+      width: 100%;
+    }
+
+    table td,
+    table th {
+      border: 1px solid #ccc;
+      padding: 5px;
+      text-align: left;
+    }
+
+    table caption {
+      caption-side: bottom;
+      text-align: right;
+      font-style: italic;
+      margin: 0 0 5px 0;
+    }
+
+    table tfoot,
+    table th {
+      background-color: #ddd;
+    }
+
+    tfoot td {
+      border-left: 0px;
+      text-align: right;
+
+    }
+  </style>
+</head>
+
+<body>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam delectus consectetur nobis in harum voluptatem.
+    Est, dolorem earum. Hic saepe commodi labore autem, sequi dicta magnam earum ab similique fugit.</p>
+  <div class="responsive-table">
+    <table>
+      <caption>Descrição da tabela</caption>
+      <thead>
+        <tr>
+          <th>Título 1</th>
+          <th>Título 1</th>
+          <th>Título 1</th>
+          <th>Título 1</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Item</td>
+          <td>Item</td>
+          <td>Item</td>
+          <td>Item</td>
+        </tr>
+        <tr>
+          <td>Item</td>
+          <td>Item</td>
+          <td>Item</td>
+          <td>Item</td>
+        </tr>
+        <tr>
+          <td>Item</td>
+          <td>Item</td>
+          <td>Item</td>
+          <td>Item</td>
+        </tr>
+        <tr>
+          <td>Item</td>
+          <td>Item</td>
+          <td>Item</td>
+          <td>Item</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total:</td>
+          <td colspan="3">123412,00</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
