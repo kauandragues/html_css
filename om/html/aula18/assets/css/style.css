@@ -1,0 +1,55 @@
+.heading {
+    transition: all 300ms ease-in-out;
+}
+
+.heading:hover {
+    background-color: red;
+}
+
+a {
+    color: aquamarine;
+}
+
+a:link {
+    color: blueviolet;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    background-color: blueviolet;
+}
+
+a:active {
+    color: red
+}
+
+input:focus {
+    box-shadow: 0 0 5px;
+    outline: none;
+    border: 1px solid black;
+}
+
+input:disabled {
+    background-color: red;
+    cursor: not-allowed;
+}
+
+input:enabled {
+    background-color: blueviolet;
+}
+
+input[type="checkbox"]:checked {
+    width: 50px;
+    height: 50px;
+}
+
+.pai .lista li:last-child {
+    background-color: red;
+}
+
+input:required {
+    background-color: yellow;
+}

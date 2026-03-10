@@ -1,0 +1,19 @@
+.heading[meu-atributo~="valor2"] {
+    color: blue;
+}
+
+.heading[meu-atributo|="valor1"] {
+    color: red
+}
+
+.heading[meu-atributo^="valor6"] {
+    color: yellow;
+}
+
+.heading[meu-atributo$="final"] {
+    color: rgb(0, 255, 13);
+}
+
+.heading[meu-atributo*="z"] {
+    color: rgb(255, 0, 204);
+}
