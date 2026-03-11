@@ -1,0 +1,29 @@
+/*
+ID -> CLASSES,ATRIBUTOS E PSEUDO-CLASSES
+-> ELEMENTOS E PSEUDO-ELEMENTOS
+
+especificidade
+empate
+style
+!important
+*/
+
+p {
+    background-color: blueviolet !important;
+}
+
+#p {
+    background-color: red;
+}
+
+#p.p {
+    background-color: yellow;
+}
+
+p#p.p {
+    background-color: rgb(4, 0, 240);
+}
+
+body p#p.p {
+    background-color: aqua
+}
