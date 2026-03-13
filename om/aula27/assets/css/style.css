@@ -1,0 +1,21 @@
+html {
+    font-size: 62.5%;
+}
+
+p.teste {
+    color: red;
+    font-size: 2rem;
+    background-color: yellow;
+    font-style: bold;
+    direction: ltr;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: overline line-through underline;
+}
+
+p.teste2 {
+    text-indent: 50px;
+    text-shadow: 1px 1px 1px red;
+}
