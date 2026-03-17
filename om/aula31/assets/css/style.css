@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.grid {
+    padding: 1.5rem;
+}
+
+.col {
+    float: left;
+    min-width: 33.33%;
+    height: 20rem;
+    padding: 1.5rem;
+}
+
+.col-content {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
+
+#redondo {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+#sombreado {
+    box-shadow: -10px 10px 0 0 black;
+}
