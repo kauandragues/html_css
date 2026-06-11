@@ -51,3 +51,37 @@
     width: 520px;
     background: rgb(17, 158, 20);
 }
+
+.flex-container3 {
+    margin-top: 50px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: rgb(47, 0, 255);
+    height: 500px;
+    width: 100px;
+}
+
+.flex-item3{
+    width: 520px;
+    background: rgb(204, 255, 0);
+}
+
+.flex-container4{
+    margin-top:50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: aquamarine;
+    height: 500px;
+}
+
+.flex-item4{
+    width: 100%;
+    margin:10px;
+    background: brown;
+}
