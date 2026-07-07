@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    font: sans-serif;
+    font-size: 40px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns:[um] 1fr [dois] 1fr [tres] 1fr [quatro];
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px
+}
+
+.grid div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: tomato;
+    min-height: 100px;
+    border: solid 1px black;
+}
+
+.grid div:nth-child(5){
+    grid-area: 2 / 2 / 3 / 4;
+}
