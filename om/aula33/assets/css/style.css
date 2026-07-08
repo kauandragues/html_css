@@ -15,7 +15,9 @@ body{
     display: grid;
     grid-template-columns:[um] 1fr [dois] 1fr [tres] 1fr [quatro];
     grid-template-rows: repeat(3, 1fr);
-    gap: 10px
+    gap: 10px 10px;
+    row-gap: 10px;
+    column-gap: 10px;
 }
 
 .grid div{
