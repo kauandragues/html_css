@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 1.6rem;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    justify-content: space-between;
+    padding-left: 2rem;
+    z-index: 2;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header li {
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    display: block;
+    padding: 2rem;
+}
+
+header .logo a {
+    padding: 0;
+}
+
+header h1 {
+    min-height: 100vh;
+}
+
+section{
+    padding: 2rem;
+}
+
+section h1{
+    margin-bottom: 2rem;
+}
+
+.card-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+
+.card {
+    padding: 2rem;
+    background-color: blueviolet;
+    width: 5rem;
+    flex-grow: 1;
+    position: relative;
+}
+
+.card::after{
+    content: "Leia Mais";
+    position: absolute;
+    top: 2.5rem;
+    right: 2rem;
+    display: none;
+}
+
+.card:hover::after{
+    display: block;
+}
+
+.card h2{
+    margin-bottom: 2rem;
+}
